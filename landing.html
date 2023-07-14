@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/637e241aa1.js" crossorigin="anonymous"></script>
+    <title>YelpCamp | Our camps</title>
+    <style>
+        .header a{
+            text-decoration: none;
+            color: lightslategrey;
+        }
+        .search{
+            background-color:beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container m-3 ms-5 p-3 header">
+        <a href="/Mainpage.html"><img src="/Assets/Logo.svg" alt="" height="50rem"></a>
+        <a href="/create_acc.html" class="btn btn-dark float-end pe-3 text-light" role="button">Create Account</a>
+        <h6 class="text-seconday float-end p-2"><a href="/loginForm.html">Login</a></h6>
+    </div><br><br>
+    <div class="search container">
+        <h1 class="p-3">Welcome To YelpCamp!!</h1>
+        <p style="line-height: 15px; margin-bottom:0.5rem;" class="ps-3">View our handpicked Campgrounds from all over the world</p>
+        <p class="ps-3">or add your own.</p>
+        <input class="m-3 p-1" type="text" placeholder="Search for camps">
+        <button class="btn btn-dark mb-2" type="button">Search</button><br>
+        <button class="btn"><a href="/addnew_Camp.html" class="text-dark ms-3" style="font-size: 20px;font-weight:bold;">Or add your own camp ground</a></button><br><br>
+    </div><br><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
+        <div class="col">
+            <div class="card">
+            <img src="/Assets/Buloy Springs.jpg" class="card-img-top" alt="..." style="height: 16em;">
+            <div class="card-body">
+                <h4 class="card-title">Buloy Springs</h4>
+                <p class="card-text mb-3">This is one of the best beach camping sites, beautiful and pristine.</p>
+                <div class="text-center d-grid"><a href="/indCampBS.html"><button class="btn btn-outline-dark">View Campground</button></a></div>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="/Assets/Calagus Islands.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Calagus Island</h4>
+                <p class="card-text">A paradise of islands that can rival the white sand beauty of Boracay.</p>
+                <div class="text-center d-grid"><a href="/indCampCi.html"><button class="btn btn-outline-dark">View Campground</button></a></div>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="/Assets/Latik Riverside.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Latik Riverside</h4>
+                <p class="card-text">Philippines is one of the most dazzling countries in all of Asia.</p>
+                <div class="text-center d-grid"><a href="/indCampLR.html"><button class="btn btn-outline-dark">View Campground</button></a></div>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="/Assets/Mount Ulap.png" class="card-img-top" alt="..."  style="height: 16em;">
+            <div class="card-body">
+                <h4 class="card-title">Mount Ulap</h4>
+                <p class="card-text mb-3">One of the most famous hikes in Benguet is Mt Ulap in Itogon.</p>
+                <div class="text-center d-grid"><a href="/indCampMU.html"><button class="btn btn-outline-dark">View Campground</button></a></div>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="/Assets/Onay Beach.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Onay Beach</h4>
+                <p class="card-text">Onay Beach is a long, long stretch, soaked in turquoise water.
+                </p>
+                <div class="text-center d-grid"><a href="/indCampOB.html"><button class="btn btn-outline-dark">View Campground</button></a></div>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+            <img src="/Assets/Seven Sisters Waterfall.jpg" class="card-img-top" alt="" style="height: 16em;">
+            <div class="card-body">
+                <h4 class="card-title">Seven Sisters Waterfall</h4>
+                <p class="card-text mb-3">The Seven Sisters is the 39th tallest waterfall in Norway.</p>
+                <div class="text-center d-grid"><a href="/indCampSSW.html"><button class="btn btn-outline-dark">View Campground</button></a></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
